@@ -1,0 +1,12 @@
+Base URL:
+GET : http://localhost:9192/actuator
+
+Custom Endpoints URL:
+POST :  http://localhost:9192/actuator/stage/STG101
+{
+    "name": "STG102",
+    "val": 101
+}
+
+GET : http://localhost:9192/actuator/stage
+GET : http://localhost:9192/actuator/stage/STG101
